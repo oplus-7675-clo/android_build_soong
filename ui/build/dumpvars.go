@@ -201,6 +201,11 @@ var BannerVars = []string{
 	"OUT_DIR",
 	"SOONG_SDK_SNAPSHOT_TARGET_BUILD_RELEASE",
 	"PRODUCT_SOONG_NAMESPACES",
+	"PRODUCT_IS_ATV",
+	"PRODUCT_IS_AUTOMOTIVE",
+	"WITH_GMS",
+	"GMS_MAKEFILE",
+	"MAINLINE_MODULES_MAKEFILE",
 }
 
 func Banner(config Config, make_vars map[string]string) string {

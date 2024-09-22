@@ -234,6 +234,12 @@ type ProductVariables struct {
 
 	Platform_base_os                       *string  `json:",omitempty"`
 	Platform_base_sdk_extension_version    *int     `json:",omitempty"`
+
+	AospaDisplayVersion *string `json:",omitempty"`
+	AospaMajorVersion   *string `json:",omitempty"`
+	AospaMinorVersion   *string `json:",omitempty"`
+	AospaBuildVariant   *string `json:",omitempty"`
+
 	Platform_display_version_name          *string  `json:",omitempty"`
 	Platform_preview_sdk_version           *string  `json:",omitempty"`
 	Platform_prospective_sdk_version_full  *string  `json:",omitempty"`
